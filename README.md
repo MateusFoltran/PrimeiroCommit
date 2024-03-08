@@ -38,6 +38,14 @@ git checkout Galho 1
 
 **5- Forçar um checkout**
 
+-f ou --force
 
+**EX:**
+git checkout -f NOME-DA-BRANCH
 
-**6-**
+**6- Desfazer alterações em seu diretório de trabalho**
+
+git checkout -- NOME-DO-ARQUIVO
+
+**Ex:**
+git checkout -- PlanetaTerra
