@@ -3,7 +3,8 @@ Aprendendo como comandos Git Funcionam!🤔
 
 **Funcionalidades Git:**
 
-**1-** Git add origin
+
+**1- Git add origin**
 
 git remote add origin <URL_do_repositório_remoto>
 
@@ -12,22 +13,30 @@ git remote add origin https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
 
 Para verificar que foi adicionado corretamente --> git remote -v
 
-**2-** Git -b
 
-git checkout -b (nome-da-branch)
+**2- Criar e fazer o checkout para uma nova branch**
+
+git checkout -b NOME-DA-BRANCH
 
 **Ex:**
 git checkout -b funcionalidade_x
 
-**3-** git checkout
 
+**3- Checkout de um commit específico**
 
+git checkout id-do-commit-específico
 
-**4-**
+**Ex:**
+git checkout PrimeiroCommit
 
+**4- Fazer o checkout de uma branch existente**
 
+git checkout NOME-DA-BRANCH
 
-**5-**
+**Ex:**
+git checkout Galho 1
+
+**5- Forçar um checkout**
 
 
 
